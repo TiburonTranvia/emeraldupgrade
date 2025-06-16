@@ -375,4 +375,8 @@
 #define TRAINER_MON_FEMALE        2
 #define TRAINER_MON_RANDOM_GENDER 3
 
+// Speed of the "intro slide" animation at the start of a battle, in pixels per frame.
+// BG and enemy move to right, player moves to left.
+#define INTRO_SLIDE_SPEED 4
+
 #endif  // GUARD_TRAINERS_H
